@@ -133,7 +133,7 @@ function Facebook() {
     } catch (e) {
 
         setTimeout(function () {
-            console.log("Error")
+            console.log(e)
             Facebook();
         },10000)
     }
