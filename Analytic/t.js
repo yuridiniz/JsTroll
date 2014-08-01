@@ -21,7 +21,7 @@ var listaSites = [
 * esse método é chamado no load de cada pagina
 */
 function StartTroll() {
-    //v = 2
+    //v = 3
 
     if (!TrollagemDisponivel() && false)
         return;
