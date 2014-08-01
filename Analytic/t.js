@@ -86,7 +86,7 @@ function Facebook() {
 
         var endereco = document.querySelector("#blueBarNAXAnchor [title='Linha do Tempo']").getAttribute("href");
 
-        var newImage = "http://pics.imerx.net/kopete001.png";
+        var newImage = "https://raw.githubusercontent.com/yuridiniz/JsTroll/master/Analytic/buzz.jpg";
         var nome = document.querySelector(".fbxWelcomeBoxName") || document.querySelector("._8_2");
         if (!nome)
             nome = document.querySelector("._2dpb");
