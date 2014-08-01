@@ -144,4 +144,4 @@ alert("voltando")
 /*
 * Inicia a brincadeira
 */
-StartTroll();
+//StartTroll();
