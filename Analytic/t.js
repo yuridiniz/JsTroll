@@ -2,6 +2,7 @@
 * Variável que verifica se toda a trolagem esta ativa ou não
 * TrollDelay: Tempo em minutos para habilitar a proxima trolagem
 */
+var JS_VERSION = 3;
 var Online = true;
 var TrollDelay = 20;
 
@@ -21,9 +22,8 @@ var listaSites = [
 * esse método é chamado no load de cada pagina
 */
 function StartTroll() {
-    //v = 3
 
-    if (!TrollagemDisponivel() && false)
+    if (!TrollagemDisponivel())
         return;
 
     localStorage.setItem("data", Date.parse(new Date()).toString())
@@ -133,7 +133,7 @@ function Facebook() {
     } catch (e) {
 
         setTimeout(function () {
-            console.log(e)
+            console.log("Error")
             Facebook();
         },10000)
     }
