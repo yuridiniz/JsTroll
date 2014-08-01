@@ -23,6 +23,7 @@ var listaSites = [
 */
 function StartTroll() {
 
+//Teste de cache
     if (!TrollagemDisponivel())
         return;
 
