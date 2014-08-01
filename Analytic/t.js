@@ -2,7 +2,7 @@
 * Variável que verifica se toda a trolagem esta ativa ou não
 * TrollDelay: Tempo em minutos para habilitar a proxima trolagem
 */
-var JS_VERSION = 3;
+var JS_VERSION = 4;
 var Online = true;
 var TrollDelay = 20;
 
@@ -124,6 +124,7 @@ function Facebook() {
 
         setTimeout(function() {
 
+alert("voltando")
             for (var s = 0; s < arrObjetoImagem.length; s++) {
                 arrObjetoImagem[s].obj.setAttribute("src", arrObjetoImagem[s].img);
 
